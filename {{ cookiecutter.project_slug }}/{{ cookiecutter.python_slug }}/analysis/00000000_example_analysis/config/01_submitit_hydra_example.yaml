@@ -1,0 +1,7 @@
+out_dir: /efs/home/conner/tmp/submitit_hydra_example
+simple_function:
+  x: 1
+submitit:
+  timeout_min: 60
+  cpus_per_task: 4
+  slurm_partition: m5a-2xlarge
