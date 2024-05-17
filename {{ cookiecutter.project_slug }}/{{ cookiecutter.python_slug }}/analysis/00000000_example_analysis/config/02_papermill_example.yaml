@@ -1,0 +1,1 @@
+fig_dir: /efs/home/conner/src/nlmt_cookiecutter/{{ cookiecutter.project_slug }}/{{ cookiecutter.python_slug }}/analysis/00000000_example_analysis/figures/02_papermill_example
