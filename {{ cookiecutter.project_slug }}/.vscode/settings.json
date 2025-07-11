@@ -1,17 +1,22 @@
 {
-    "notebook.formatOnSave.enabled": true,
-    "notebook.codeActionsOnSave": {
-        "notebook.source.fixAll": true,
-        "source.organizeImports": true
-    },
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.fixAll": "explicit",
             "source.organizeImports": "explicit"
         },
-        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": true
     },
     "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "basic",
+    "remote.extensionKind": {
+        "GitHub.copilot": [
+            "ui"
+        ]
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": true,
+        "source.organizeImports": true
+    }
 }
