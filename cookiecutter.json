@@ -6,6 +6,10 @@
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-')}}",
     "python_slug": "{{ cookiecutter.project_slug.replace('-', '_') }}",
     "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    "package_type": [
+      "analysis",
+      "library"
+    ],
     "hosting_pypi_username": "{{ cookiecutter.hosting_github_username_or_org }}",
     "license": [
       "MIT License",
